@@ -1,0 +1,15 @@
+{
+	"name": "CookieEarner2000",
+	"version": "1.0",
+	"description": "An autoclicker for the game Cookie Clicker.",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches":["<all_urls>"],
+			"js":["main.js"]
+		}
+     ],
+    "browser_action": {
+		"default_icon": "icon.png"
+	}
+}
